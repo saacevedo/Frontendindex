@@ -1,0 +1,37 @@
+
+<title>AUTORES</title>
+    <link rel="shortcut icon" href="../imagenes/AnimeList.ico">
+     
+    <link rel="stylesheet" href="../estilos/STYLE.CSS">
+    
+<a href="../index.html"><img src="../imagenes/Book.gif" width="100%" height="80px"></a>
+
+
+Insertar un autor sql
+INSERT INTO `autores` (`Idautor`, `Nombre`, `Nacionalidad`) VALUES ('123456', 'Nakamura', 'Japon');
+
+Mashima, Hiro 
+
+
+67911554
+Fairy Tail Tomo 60
+2006-04-20
+201
+Español
+1006825678
+90000
+9002
+
+Autor
+Okamoto, Lynn
+Ishida, Sui
+
+Editorial
+1006825699
+panini
+1006825600
+Young Jump
+
+Botones de Administrador para eliminar actualizar 
+https://www.youtube.com/watch?v=rye9-pbPa8g&ab_channel=ElProfeDavid-Tol%C3%BADigital
+

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./estilos/styleBiblioteca.css">
+    <style>
+        
+        #login-container {
+            background-color: rgb(89, 110, 141);
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        #login-container input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        #login-container button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        #login-container button:hover {
+            background-color: #53884e;
+        }
+        #content-container {
+            display: none; /* Hidden by default */
+            background-color: #697a9b;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 700px;
+            text-align: center;
+        }
+        .error-message {
+            color: red;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="login-container">
+        <h2>Acceso Restringido</h2>
+        <a href="./index.html"><img src="./imagenes/Book.gif" width="80%" height="160px"></a>
+        <input type="text" id="username" placeholder="Usuario = 1">
+        <input type="password" id="password" placeholder="Contraseña = 1">
+        <button onclick="checkCredentials()">Ingresar</button>
+        <p id="error-message" class="error-message"></p>
+    </div>
+
+    <div id="content-container">
+            <form action="" method="post">
+                <h1>Registro de usuario<a href="http://localhost/Frontendindex/navegacion/usuarios.php"> 👩‍💼👨‍💼 </a></h1>
+
+                <h1>Ingresar autor<a href="http://localhost/Frontendindex/navegacion/autores.php"> 👨‍🎨👩‍🎨 </a></h1>
+
+                <h1>Registrar libro<a href="http://localhost/Frontendindex/navegacion/libros.php"> 📖 </a></h1>
+
+                <h1>Registrar editorial<a href="http://localhost/Frontendindex/navegacion/editorial.php"> 🏟 </a></h1>
+
+                <h1>Realizar un Prestamo<a href="http://localhost/Frontendindex/navegacion/prestamo.php"> 💢 </a></h1>
+            </form>
+        <BR></BR>
+        <button class="Boton" onclick="logout()">Cerrar Sesión</button>
+    </div>
+
+    <script>
+        // Define tus credenciales (¡solo para demostración, NO USAR EN PRODUCCIÓN!)
+        const correctUsername = "1";
+        const correctPassword = "1";
+
+        function checkCredentials() {
+            const usernameInput = document.getElementById("username").value;
+            const passwordInput = document.getElementById("password").value;
+            const loginContainer = document.getElementById("login-container");
+            const contentContainer = document.getElementById("content-container");
+            const errorMessage = document.getElementById("error-message");
+
+            if (usernameInput === correctUsername && passwordInput === correctPassword) {
+                loginContainer.style.display = "none"; // Oculta el formulario de login
+                contentContainer.style.display = "block"; // Muestra el contenido
+                errorMessage.textContent = ""; // Limpia cualquier mensaje de error
+            } else {
+                errorMessage.textContent = "Usuario o contraseña incorrectos.";
+            }
+        }
+
+        function logout() {
+            const loginContainer = document.getElementById("login-container");
+            const contentContainer = document.getElementById("content-container");
+            const usernameInput = document.getElementById("username");
+            const passwordInput = document.getElementById("password");
+
+            contentContainer.style.display = "none"; // Oculta el contenido
+            loginContainer.style.display = "block"; // Muestra el formulario de login
+            usernameInput.value = ""; // Limpia el campo de usuario
+            passwordInput.value = ""; // Limpia el campo de contraseña
+        }
+    </script>
+    
+</body>
+</html>
