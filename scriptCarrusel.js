@@ -1,12 +1,26 @@
 let slideIndex = 1;
 showSlides(slideIndex);
 
+function autoSlide(){
+    plusSlides(1);
+
+let intervalID = setInterval(autoSlide,10);
+
+function resetInterval(){
+    clearInterval(intervalID);
+    intervalID = setInterval(autoSlide, 10);
+}
+
 function plusSlides(n) {
     showSlides(slideIndex += n);
+    resetInterval();
+}
+
 }
 
 function currentSlide(n) {
     showSlides(slideIndex = n);
+    resetInterval();
 }
 
 function showSlides(n) {

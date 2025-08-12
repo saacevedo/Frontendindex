@@ -22,9 +22,9 @@ body {
 
 .carousel-container {
     position: relative;
-    width: 600px; /* Ancho del carrusel */
-    height: 400px; /* Alto del carrusel */
-    overflow: hidden;
+    width: 200px; /* Ancho del carrusel */
+    height: 1200px; /* Alto del carrusel */
+    overflow:unset;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
@@ -43,13 +43,13 @@ body {
 .prev, .next {
     cursor: pointer;
     position: absolute;
-    top: 50%;
+    top: 80%;
     width: auto;
-    padding: 16px;
-    margin-top: -22px;
+    padding: 10px;
+    margin-top: -12px;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 15px;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
     user-select: none;
@@ -68,7 +68,7 @@ body {
 
 .dots-container {
     text-align: center;
-    padding: 10px;
+    padding: 1px;
 }
 
 .dot {
@@ -84,4 +84,19 @@ body {
 
 .active, .dot:hover {
     background-color: #717171;
+}
+
+.Mover{
+    margin-top: 5px;
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    justify-content: right;
+    font-family: myfont;
+}
+
+.carousel-container{
+    color: black;
+    text-align: left;
+    
 }
