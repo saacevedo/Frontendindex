@@ -5,18 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Libreria Manga</title>
     <link rel="shortcut icon" href="./imagenes/AnimeList.ico">
-    <link rel="stylesheet" href="./estilos/styleFrontend2.css">
+    <link rel="stylesheet" href="./estilos/styleCarrusel.css">
+    
 </head>
 <body>
         <div class="Mover" id="InicioId">
             <div class="Inicio2">
                 <a href="indexFrontend.html">
-                    <img src="./imagenes/LoginAni.gif" alt="" width="500" height="300">
+                    <img src="./imagenes/LoginAni.gif" alt="" width="250" height="150">
                 </a>
             </div>
         </div>
     <section>
-        <div class="Siguenos">
+
+        <div class="carousel-container">
+        <div class="carousel-slide">
+            <img src="./imagenes/Calabera.jpg" alt="Imagen 1">
+            <img src="./imagenes/Calabera.jpg" alt="Imagen 2">
+            <img src="./imagenes/Calabera.jpg" alt="Imagen 3">
+        </div>
+        
+        <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+        <button class="next" onclick="plusSlides(1)">&#10095;</button>
+    </div>
+
+    <div class="dots-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <script src="scriptCarrusel.js"></script>
+        <!-- <div class="Siguenos">
             <a><h1>Siguenos en nuestras Redes</h1></a>
             <span class="circulo red" color="red">
                 <img src="./imagenes/mal.png" alt="MyAnimelist" width="50" height="50">
@@ -32,17 +52,17 @@
             </span>
             <span class="circulo" color="pink">
                 <img src="./imagenes/discord.png" alt="" width="50" height="50">
-            </span>
+            </span> -->
             
-            <br> |
+            <!-- <br> |
             <button class="Boton" id="moverbtd">👉</button> |
             <button class="Boton" id="moverbti">👈</button> | 
             <button class="Boton" id="moverbtar">👆</button> | 
             <button class="Boton" id="moverbtab">👇</button> | 
-            <br><br><br>
+            <br><br><br> -->
             
             
-        </div>
+        <!-- </div> -->
 
             
         
@@ -55,5 +75,5 @@
         </div> -->
     </section>
 </body>
-<script src="script.js"></script>
+
 </html>
