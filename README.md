@@ -1,17 +1,6 @@
 # Frontendindex
 ---------------------------------------------
-Tecnologías Utilizadas
-HTML: Estructura de todas las páginas del sitio, como el catálogo, los detalles del manga y el panel de administración.
 
-CSS: Estilos y diseño visual de la interfaz.
-
-JavaScript: Interactividad en el frontend, como la navegación en el carrusel de mangas, la gestión de favoritos y la validación de formularios.
-
-PHP: Lógica del backend para interactuar con la base de datos, gestionar los datos de los mangas y manejar las acciones de los usuarios.
-
-MySQL: Base de datos para almacenar toda la información del catálogo de mangas, incluyendo títulos, descripciones, imágenes y otros detalles.
-
-XAMPP: Servidor local para el desarrollo y las pruebas, incluyendo Apache y MySQL.
 
 Funcionalidades Principales
 Catálogo de Manga: Una página principal (index.html) que muestra todos los mangas disponibles, con imágenes y títulos.
