@@ -35,7 +35,7 @@ Aquí puedes dar un resumen de los archivos y carpetas más importantes.
 ## Estructura del proyecto
 ├── BASE DE DATOS/
 
-│   └── [nombre_del_archivo].sql
+│   └── libreriamanga.sql
 
 ├── estilos/
 
