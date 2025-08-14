@@ -1,34 +1,33 @@
 # Libreria Manga
 ---------------------------------------------
 
-- Este es un proyecto de una librería en línea y proximamente fisica, especializada en comics Japoneses y proximamente Colombianos. La aplicación permite a los usuarios navegar por un catálogo de mangas, ver detalles de cada obra y realizar sus compras de las obras .
+- Este es un proyecto de una librería en línea y proximamente fisica, especializada en comics Japoneses y proximamente Colombianos. La aplicación permite a los usuarios navegar por un catálogo de comics, ver detalles de cada obra y realizar sus compras de las obras .
 
+- Sus funcionalidades principales son un Catálogo de comics Japoneses: Una página principal (index.html) que muestra todos los mangas disponibles, con imágenes y títulos mas destacados.
 
-- sus funcionalidades principales son un Catálogo de Manga: Una página principal (index.html) que muestra todos los mangas disponibles, con imágenes y títulos mas destacados.
-
-- Detalles del Manga: Una página específica (indexManga.html) que muestra información detallada de un titulo, como la sinopsis, el autor, el género, etc. tambien algunos titulos se pueden leer en Linea.
+- Detalles del comic: Una página específica (indexManga.html) que muestra información detallada de un titulo, como la sinopsis, el autor, el género, etc. tambien algunos titulos se pueden leer en Linea.
 
 - Navegación Interactiva: Un carrusel (scriptCarrucel.js) para una navegación fluida por los títulos destacados.
 
 > [!IMPORTANT]
-> Panel de Administración: Una interfaz (indexadmin.html) para que el administrador pueda agregar, editar, agregar usuarios, autores, compradores, tambien puede eliminar cualquier tipo de registro.
+> Cuenta con un panel de Administración: Una interfaz (indexadmin.html) para que el administrador pueda agregar, editar, agregar usuarios, autores, compradores, tambien puede eliminar cualquier tipo de registro.
 ---------------------------------------------
 
 # Tecnologías Utilizadas
-HTML, CSS, JavaScript: Para la estructura, estilos y lógica del frontend.
+- HTML, CSS, JavaScript: Para la estructura, estilos y lógica del frontend.
 
-PHP: Para la lógica del backend y la interacción con la base de datos.
+- PHP: Para la lógica del backend y la interacción con la base de datos.
 
-XAMPP: Servidor local para ejecutar el entorno de desarrollo (Apache y MySQL).
+- XAMPP: Servidor local para ejecutar el entorno de desarrollo (Apache y MySQL).
 
-MySQL: Sistema de gestión de base de datos.
+- MySQL: Sistema de gestión de base de datos.
 
-JSON: Para el manejo de datos en algunas interacciones.
+- JSON: Para el manejo de datos en algunas interacciones.
 
-Estructura del Proyecto
-Aquí puedes dar un resumen de los archivos y carpetas más importantes.
+> [!NOTE]
+> Estructura del Proyecto
+> quí puedes dar un resumen de los archivos y carpetas más importantes.
 
-## Estructura del proyecto
 ├── BASE DE DATOS/
 
 │   └── libreriamanga.sql
