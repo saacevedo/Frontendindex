@@ -83,10 +83,10 @@ Si no lo tienes, descárgalo e instálalo desde el sitio oficial de XAMPP.
 ---
 
 ## 3: Abrir el proyecto:
-- [ ] En tu navegador, navega a http://localhost/[nombre_de_la_carpeta_del_proyecto]/.
-- [ ] **Uso Aquí puedes dar instrucciones sobre cómo usar las diferentes partes de tu proyecto, si es necesario. Por ejemplo:**
-- [ ] Para la interfaz de usuario: Visita http://localhost/[nombre_de_la_carpeta_del_proyecto]/indexfrontend.html.
-- [ ] Para el panel de administración: Visita http://localhost/[nombre_de_la_carpeta_del_proyecto]/indexadmin.html.
+- [ ] En tu navegador, navega a http://localhost/Frontendindex/index.html
+- [ ] 
+- [ ] Para la interfaz de usuario: Visita http://localhost/Frontendindex/index.html
+- [ ] Para el panel de administración: Visita http://localhost/Frontendindex/indexadmin.html
 ---
 
 ## : 
