@@ -10,7 +10,7 @@
 - Navegación Interactiva: Un carrusel (scriptCarrucel.js) para una navegación fluida por los títulos destacados.
 
 > [!IMPORTANT]
-> Cuenta con un panel de Administración: Una interfaz (indexadmin.html) para que el administrador pueda agregar, editar, agregar usuarios, autores, compradores, tambien puede eliminar cualquier tipo de registro.
+> Cuenta con un panel de Administración: Una interfaz (indexadmin.html) para que el administrador pueda agregar y editar: usuarios, autores, compradores, libros o comics, prestamos de libros, tambien puede eliminar cualquier tipo de registro.
 ---------------------------------------------
 
 # Tecnologías Utilizadas
