@@ -1,17 +1,17 @@
 # Libreria Manga
 ---------------------------------------------
 
-Este es un proyecto de una librería en línea y proximamente fisica, especializada en comics Japoneses y proximamente Colombianos. La aplicación permite a los usuarios navegar por un catálogo de mangas, ver detalles de cada obra y realizar sus compras de las obras .
+- Este es un proyecto de una librería en línea y proximamente fisica, especializada en comics Japoneses y proximamente Colombianos. La aplicación permite a los usuarios navegar por un catálogo de mangas, ver detalles de cada obra y realizar sus compras de las obras .
 
 
-Funcionalidades Principales
-Catálogo de Manga: Una página principal (index.html) que muestra todos los mangas disponibles, con imágenes y títulos mas destacados.
+- sus funcionalidades principales son un Catálogo de Manga: Una página principal (index.html) que muestra todos los mangas disponibles, con imágenes y títulos mas destacados.
 
-Detalles del Manga: Una página específica (indexManga.html) que muestra información detallada de un titulo para leerlo en linea, como la sinopsis, el autor, el género, etc.
+- Detalles del Manga: Una página específica (indexManga.html) que muestra información detallada de un titulo, como la sinopsis, el autor, el género, etc. tambien algunos titulos se pueden leer en Linea.
 
-Panel de Administración: Una interfaz (indexadmin.html) para que el administrador pueda agregar, editar, agregar usuarios, autores, compradores, tambien puede eliminar cualquier tipo de registro.
+- Navegación Interactiva: Un carrusel (scriptCarrucel.js) para una navegación fluida por los títulos destacados.
 
-Navegación Interactiva: Un carrusel (scriptCarrucel.js) para una navegación fluida por los títulos destacados.
+> [!IMPORTANT]
+> Panel de Administración: Una interfaz (indexadmin.html) para que el administrador pueda agregar, editar, agregar usuarios, autores, compradores, tambien puede eliminar cualquier tipo de registro.
 ---------------------------------------------
 
 # Tecnologías Utilizadas
