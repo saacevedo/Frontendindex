@@ -1,5 +1,4 @@
 # Frontendindex
-Frontendindex
 ---------------------------------------------
 Tecnologías Utilizadas
 HTML: Estructura de todas las páginas del sitio, como el catálogo, los detalles del manga y el panel de administración.
