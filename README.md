@@ -79,11 +79,11 @@ Si no lo tienes, descárgalo e instálalo desde el sitio oficial de XAMPP.
 
 ## 3: Abrir el proyecto:
 - [ ] En tu navegador, navega a http://localhost/Frontendindex/index.html
-- [ ] 
 - [ ] Para la interfaz de usuario: Visita http://localhost/Frontendindex/index.html
-- [ ] Para el panel de administración: Visita http://localhost/Frontendindex/indexadmin.html
----
+- [ ] Para el panel de administración: Visita http://localhost/Frontendindex/indexadmin.html te pide usuario y contraseña las cuales son (1). como es una proyecto BETA puedes modificarlo
+- [ ] Aqui puedes agregar modificar o eliminar usuario nuevos que realicen una compra http://localhost/Frontendindex/navegacion/usuarios.php
+- [ ] Aqui puedes registrar un autor modificar o eliminarlo http://localhost/Frontendindex/navegacion/autores.php
+- [ ] Aqui puedes agregar modificar o eliminar un libro o comic para la venta http://localhost/Frontendindex/navegacion/libros.php
+- [ ] Aqui puedes agregar modificar o eliminar editoriales que te envien los libros o comics http://localhost/Frontendindex/navegacion/editorial.php 
+- [ ] Aqui puedes agregar modificar o eliminar prestamos que te hacen ya que hay usuarios que solo quieren alquilar el libro http://localhost/Frontendindex/navegacion/prestamo.php
 
-## : 
-- [ ] 
----
